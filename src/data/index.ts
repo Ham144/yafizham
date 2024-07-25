@@ -215,3 +215,20 @@ export const socialMedia = [
 		img: "/link.svg",
 	},
 ];
+
+export const stacks = [
+	"React",
+	"NextJs",
+	"express",
+	"MongoDB",
+	"vite",
+	"React Native",
+	"Redux",
+	"Prisma",
+	"Mongoose",
+	"figma",
+	"Tailwind",
+	"PhotoShop",
+	"Capcut",
+	"MsExcel",
+];
