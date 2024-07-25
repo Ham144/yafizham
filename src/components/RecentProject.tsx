@@ -6,7 +6,7 @@ const RecentProject = () => {
 	return (
 		<div className="py-20 " id="projects">
 			<div className="gap-y-2 ">
-				<h1 className="lg:heading max-lg:text-[2rem] text-center">
+				<h1 className="lg:heading max-lg:text-[2rem] text-center max-lg:leading-10 max-lg:mb-10">
 					Some of My{" "}
 					<span className="text-purple">Learning Result Projects</span>
 				</h1>
