@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
 	return (
-		<div className={`pb-20 pt-36`}>
+		<div className={`pb-20 pt-36`} id="top">
 			<div>
 				<Spotlight
 					className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -41,7 +41,11 @@ const Hero = () => {
 						title="See My Projects"
 						position="right"
 						icon={<FaLocationArrow className="mx-3" />}
-						onClick={() => alert("Coming Soon")}
+						onClick={() =>
+							document
+								.getElementById("projects")
+								?.scrollIntoView({ behavior: "smooth" })
+						}
 					/>
 				</div>
 			</div>
