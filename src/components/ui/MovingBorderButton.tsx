@@ -32,13 +32,12 @@ export function Button({
 	return (
 		<Component
 			className={cn(
-				"bg-transparent relative text-xl  h-16 w-40 p-[1px] overflow-hidden ",
+				"bg-transparent relative text-xl  h-full text-center flex items-center mt-4  overflow-hidden ",
 				containerClassName
 			)}
 			style={{
 				borderRadius: borderRadius,
 			}}
-			{...otherProps}
 		>
 			<div
 				className="absolute inset-0"

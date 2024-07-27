@@ -9,7 +9,7 @@ const BorderMagicButton = ({
 }: {
 	title: string;
 	position: string;
-	onClick: () => void;
+	onClick?: () => void;
 	icon: React.ReactNode;
 	otherClasses?: string;
 }) => {
